@@ -1,2 +1,4 @@
 # stock-visualization-prediction-
-Stock app,a Mini Project
+Stock Visualization Web-App(Mini Project)
+Index or Home page is Source.py File
+
