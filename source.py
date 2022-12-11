@@ -121,7 +121,7 @@ if opt=="LOGIN":
                 end_date = st.date_input("End date", dt.date.today())
                 st.warning("for NSE STOCKS USE [SYMBOL+.NS]")
                 tickerSymbol = st.text_input('ENTER STOCK CODE','RELIANCE.NS')  
-                visualize(tickerSymbol,start_date,end_date)
+                sai.visualize(tickerSymbol,start_date,end_date)
             elif  opt=="PREDICTION":
                 x=st.text_input("ENTER THE STOCK CODE","TCS.NS") 
                 y=st.number_input("No of days of prediction",5,max_value=30,step=2)
